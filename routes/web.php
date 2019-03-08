@@ -18,3 +18,13 @@ $router->get('/', function () use ($router) {
 $router->get('/ping', function () {
     return response()->json(['ack' => time()]);
 });
+
+$router->get('/authors/{id:\d+}', [
+    'as' => 'author.list',
+    'uses' => 'AuthorController@show',
+]);
+
+// $router->post('/app', [
+//     'as' => 'accts.assets',
+//     'uses' => 'AssetsController@show',
+// ]);
