@@ -27,6 +27,8 @@
             "CD\\App\\Actts\\Models\\": "app/CD/App/Actts/Models/",
             "CD\\App\\Hrm\\Controllers\\": "app/CD/App/Hrm/Controllers/",
             "CD\\App\\Hrm\\Models\\": "app/CD/App/Hrm/Models/",
+            "CD\\App\\Blog\\Controllers\\": "app/CD/App/Blog/Controllers/",
+            "CD\\App\\Blog\\Models\\": "app/CD/App/Blog/Models/",
             "CD\\Sys\\CDObj\\Controllers\\": "app/CD/App/CDObj/Controllers/",
             "CD\\Sys\\": "app/CD/Sys/",
             "CD\\Sys\\CDObj\\Models\\": "app/CD/Sys/CDObj/Models/",
