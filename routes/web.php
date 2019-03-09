@@ -38,6 +38,18 @@ $router->get('/authors/{id:\d+}', [
 //     $router->put('authors/{id}', ['uses' => 'AuthorController@update']);
 // });
 
-$router->get('/blog', [
-    'uses' => 'AuthorController@index',
+$router->post('/app', [
+    'uses' => 'CDController@index',
+]);
+
+$router->post('/sys', [
+    'uses' => 'CDController@index',
+]);
+
+$router->get('/app', [
+    'uses' => 'CDController@index',
+]);
+
+$router->get('/sys', [
+    'uses' => 'CDController@index',
 ]);
